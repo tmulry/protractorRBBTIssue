@@ -5,6 +5,5 @@ exports.config = {
     restartBrowserBetweenTests: true,
     capabilities: {'browserName': 'chrome'},
     baseUrl: 'http://angularjs.org',
-    jasmineNodeOpts: {showColors: true,isVerbose: true,includeStackTrace: true},onPrepare: function() {require('jasmine-reporters');jasmine.getEnv().addReporter(new jasmine.JUnitXmlReporter('./xmloutput', true, true));
-    }
+
 };
